@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UserProfiles from "../components/UserProfiles";
+import UserProfiles from "./UserProfiles";
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
