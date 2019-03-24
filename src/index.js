@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import UserProfiles from "../components/UserProfiles";
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+function App() {
+    return(
+        <div className="App">
+            <UserProfiles />
+        </div>
+    )
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
